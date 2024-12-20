@@ -4,7 +4,7 @@ name: Python Continous Integration
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "fix-windows-build"]
   pull_request:
     branches: ["master"]
 
